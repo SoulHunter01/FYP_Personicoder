@@ -1,0 +1,22 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: '100%';
+    flex: 1;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+.txt {
+    font-size: 78px;
+    text-align: center;
+}
+
+.page > button {
+    padding: 10px 25px;
+    border-radius: 50px;
+    background-color: aqua;
+    font-weight: 700;
+}

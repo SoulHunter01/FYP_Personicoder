@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.center__heading {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #1d2432;
+}
+
+.header__right > button {
+    padding: 10px 25px;
+    border-radius: 50px;
+    background-color: aqua;
+    font-weight: 700;
+}
